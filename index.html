@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kenneth's Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <h1>Ken's Quiz App</h1>
+    <form action="" id="quiz" name="quiz">
+        <p>Who is Goku's father?</p>
+        <input type="text" id="textbox" name="question1">
+        <p>What pokemon evolves from charmander?</p>
+        <input type="radio" name="question2" id="mc" value="pikachu">Pickachu
+        <br>
+        <input type="radio" name="question2" id="mc" value="charmeleon">Charmeleon
+        <br>
+        <p>Who is Yogi's rival?</p>
+        <input type="radio" name="question3" id="mc" value="kaiba">Kaiba
+        <br>
+        <input type="radio" name="question3" id="mc" value="freeza">Freeza
+        <br>
+        <input id="button" type="button" value="I'm Finished" onclick="check();"> </form>
+    <div id="after-submit">
+        <p id="message"></p>
+        <p id="number-correct"></p> <img id="picture" src="" alt=""> </div>
+</body>
+
+</html>
